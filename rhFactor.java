@@ -43,6 +43,7 @@ public class rhFactor {
         if(rhFather == "Error" || rhMother == "Error") {
             System.out.println("Invalid Input!! Please Try Again... ");
             main(null);
+            System.exit(0);
         }
 
         //Now Let us setup the Punnet Square
